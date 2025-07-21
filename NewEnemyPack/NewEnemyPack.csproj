@@ -344,7 +344,6 @@
     <EmbeddedResource Include="Assets\EnemyPackSounds.bank" />
     <EmbeddedResource Include="Assets\EnemyPackSounds.strings.bank" />
     <EmbeddedResource Include="Assets\greyjumble" />
-    <EmbeddedResource Include="Assets\greyjumble.meta" />
     <EmbeddedResource Include="Textures\Achievements\BossButchererAch.png" />
     <EmbeddedResource Include="Textures\Achievements\CherubimAch.png" />
     <EmbeddedResource Include="Textures\Achievements\DeerAch.png" />
@@ -676,70 +675,64 @@
 
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\References\BrutalOrchestra\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\BepInEx.dll</HintPath>
+      <HintPath>..\..\References\Bepinex\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="BrutalAPI">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\BrutalAPI.dll</HintPath>
+      <HintPath>..\..\References\BrutalOrchestra\BrutalAPI.dll</HintPath>
     </Reference>
     <Reference Include="FMODUnity">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\FMODUnity.dll</HintPath>
-    </Reference>
-    <Reference Include="MarmoItems">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\MarmoItems.dll</HintPath>
+      <HintPath>..\..\References\Unity\FMODUnity.dll</HintPath>
     </Reference>
     <Reference Include="Marosi.SerializableCollections">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\Marosi.SerializableCollections.dll</HintPath>
+      <HintPath>..\..\References\Unity\Marosi.SerializableCollections.dll</HintPath>
     </Reference>
     <Reference Include="MonoMod.RuntimeDetour">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\MonoMod.RuntimeDetour.dll</HintPath>
+      <HintPath>..\..\References\Bepinex\MonoMod.RuntimeDetour.dll</HintPath>
     </Reference>
     <Reference Include="MonoMod.Utils">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\MonoMod.Utils.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\References\Bepinex\MonoMod.Utils.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>..\..\References\Unity\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\UnityEngine.dll</HintPath>
+      <HintPath>..\..\References\Unity\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>..\..\References\Unity\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>..\..\References\Unity\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>..\..\References\Unity\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\..\References\Unity\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>..\..\References\Unity\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>..\..\References\Unity\UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\UnityEngine.UI.dll</HintPath>
+      <HintPath>..\..\References\Unity\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>..\..\References\Unity\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="YarnSpinner">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\YarnSpinner.dll</HintPath>
+      <HintPath>..\..\References\Unity\YarnSpinner.dll</HintPath>
     </Reference>
     <Reference Include="YarnSpinner.Compiler">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\YarnSpinner.Compiler.dll</HintPath>
+      <HintPath>..\..\References\Unity\YarnSpinner.Compiler.dll</HintPath>
     </Reference>
     <Reference Include="YarnSpinner.Unity">
-      <HintPath>..\..\..\..\OneDrive\Desktop\NewReferences\YarnSpinner.Unity.dll</HintPath>
+      <HintPath>..\..\References\Unity\YarnSpinner.Unity.dll</HintPath>
     </Reference>
   </ItemGroup>
 
