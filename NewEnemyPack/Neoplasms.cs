@@ -105,7 +105,7 @@ namespace NewEnemyPack
                 
 
             };
-            slobber.AddIntentsToTarget(Targeting.Slot_Front, new string[] { IntentType_GameIDs.Other_MaxHealth.ToString(), IntentType_GameIDs.Damage_3_6.ToString() });
+            slobber.AddIntentsToTarget(Targeting.Slot_Front, new string[] { IntentType_GameIDs.Other_MaxHealth.ToString() });
             slobber.AnimationTarget = Targeting.Slot_Front;
             slobber.Visuals = LoadedAssetsHandler.GetEnemyAbility("EarWorm_A").visuals;
 
